@@ -37,7 +37,7 @@ export default function TestPage() {
   const buildText = () => {
     if (mode === "time") return generateWordText(60);
     if (mode === "words") return generateWordText(wordOption);
-    if (mode === "quote") return randomQuote().text;
+    if (mode === "quote") return generateWordText(30);
     return customText;
   };
 
